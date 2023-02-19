@@ -1,22 +1,22 @@
-*
- * Q1: Write code to remove given value from the given array
- * Points: 30
- * 
- * [1, 2, 3, 4, 5] , 2  -> [1, 3, 4, 5]
- * 
- * [21, 32, 12, 43, 45, 65, 12], 12 -> [21, 32, 43, 45, 65]
- * 
- * [-1, 2, 43, 65] , 11 -> [-1, 2, 43, 65]
- */
-console.log('\nQ1');
-const arr1 = [21, 32, 12, 43, 45, 65, 12];
-const num1 = 12;
-let arr1Result = [];        // final ans should be in this variable (get values in arr1Result from arr1 which are NOT equals to num1)
-​
-​arr1Result = arr1.scarch(val => val !== num1);
+// /*
+//  * Q1: Write code to remove given value from the given array
+//  * Points: 30
+//  * 
+//  * [1, 2, 3, 4, 5] , 2  -> [1, 3, 4, 5]
+//  * 
+//  * [21, 32, 12, 43, 45, 65, 12], 12 -> [21, 32, 43, 45, 65]
+//  * 
+//  * [-1, 2, 43, 65] , 11 -> [-1, 2, 43, 65]
+//  */
+// console.log('\nQ1');
+// const arr1 = [21, 32, 12, 43, 45, 65, 12];
+// const num1 = 12;
+// let arr1Result = [];        // final ans should be in this variable (get values in arr1Result from arr1 which are NOT equals to num1)
+// ​
+// ​arr1Result = arr1.scarch(val => val !== num1);
 
-console.log(arr1);          // [21, 32, 12, 43, 45, 65, 12];
-console.log(arr1Result);    // [21, 32, 43, 45, 65];
+// console.log(arr1);          // [21, 32, 12, 43, 45, 65, 12];
+// console.log(arr1Result);    // [21, 32, 43, 45, 65];
 
 
 /**
@@ -90,7 +90,7 @@ const accounts = [
     },
 ]
                  // final ans should be in this variable
-​ let total = accounts.reduce((sum, {balance}) => sum + balance, 0);
+ let total = accounts.reduce((sum, val) => sum + val.balance, 0);
 
 console.log(`Total of all balances in the accounts array: ${total}`);
 
@@ -125,7 +125,29 @@ for (let i = 0; i < arr3.length; i++) {
         }
     }
 }
-if (jaar3) arr3Result = -1;ss
+//if (jaar3) arr3Result = -1;
 
-console.log(arr3);
-console.log(`the index of second-occurrence of 'baSeBalL' (ignoring cases) in the arr3-array : ${arr3Result}`);
+//console.log(arr3);
+//console.log(`the index of second-occurrence of 'baSeBalL' (ignoring cases) in the arr3-array : ${arr3Result}`);
+
+console.log('hel');
+let num=10, num=20, num=30,
+let inc2=num1++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
